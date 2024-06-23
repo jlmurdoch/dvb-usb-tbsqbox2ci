@@ -1,0 +1,11 @@
+--- linux-source-6.1/drivers/media/usb/dvb-usb/tbs-qbox2ci.c	2024-06-22 22:24:39.714380233 +0100
++++ linux-source-6.1/drivers/media/usb/dvb-usb/tbs-qbox2ci.c	2024-06-23 16:35:31.636127612 +0100
+@@ -497,7 +497,7 @@
+ 	.tuner_set_bandwidth    = stb6100_set_bandwidth,
+ 	.tuner_get_bandwidth    = stb6100_get_bandwidth,
+ 
+-	.set_lock_led = tbsqbox2ci_led_ctrl,
++	// .set_lock_led = tbsqbox2ci_led_ctrl,
+ };
+ 
+ static struct stb6100_config qbox2_stb6100_config = {
